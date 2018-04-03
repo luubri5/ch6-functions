@@ -2,7 +2,9 @@
 
 # Define a function `add_three` that takes a single argument and
 # returns a value 3 greater than the input
-add_three <- function(value) { value + 3}
+add_three <- function(value) { 
+  value + 3
+}
 
 # Create a variable `ten` that is the result of passing 7 to your `add_three` 
 # function
@@ -13,7 +15,7 @@ ten <- add_three(7)
 # The function should return the equivalent length in meters
 imperial_to_metric <- function(feet, inches) {
   total.inches <- feet * 12 + inches
-  meters <- totals.inches * 0.0254
+  meters <- total.inches * 0.0254
   meters
 }
 
